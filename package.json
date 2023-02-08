@@ -1,0 +1,31 @@
+{
+  "name": "neofrahs",
+  "version": "1.0.0",
+  "description": "This is for more customization ^",
+  "main": "build/index.js",
+  "type": "build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawitpr/neofrahs.git"
+  },
+  "keywords": [
+    "neofrahs",
+    "neofrahs-node",
+    "basic"
+  ],
+  "author": "PawitSahare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pawitpr/neofrahs/issues"
+  },
+  "homepage": "https://github.com/pawitpr/neofrahs#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
